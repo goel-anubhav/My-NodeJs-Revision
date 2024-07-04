@@ -1,0 +1,26 @@
+{
+  "name": "my-nodejs-diary",
+  "version": "1.0.0",
+  "description": "My NodeJs Diary to revise my core concepts wherever, whenever I want.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goel-anubhav/My-NodeJs-Diary.git"
+  },
+  "keywords": [
+    "My-NodeJs-Diary"
+  ],
+  "author": "Anubhav Goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goel-anubhav/My-NodeJs-Diary/issues"
+  },
+  "homepage": "https://github.com/goel-anubhav/My-NodeJs-Diary#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "yarn": "^1.22.22"
+  }
+}
