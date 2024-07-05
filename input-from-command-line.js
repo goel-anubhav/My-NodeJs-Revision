@@ -10,6 +10,10 @@ const input = process.argv ;
 
 //using if condition
 
+// to create file: node .\input-from-command-line.js add hello.txt 'Anubhav This Side'
+
+// to remove: node .\input-from-command-line.js remove  hello.txt 
+
 if(input[2]=='add'){
     fs.writeFileSync(input[3],input[4])
 }else if(input[2]=='remove')
