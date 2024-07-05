@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const input = process.argv ;
+
 //input to create file with name hello.txt and data in it is 'hi': node .\input-from-command-line.js hello.txt hi 
 // fs.writeFileSync(input[2],input[3]) 
 
