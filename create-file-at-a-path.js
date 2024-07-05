@@ -18,3 +18,13 @@ for(i=0;i<5;i++){
 
 
 }
+
+// to read and list the content of the file
+
+fs.readdir(dirPath,(error, files)=>{
+    console.log(files);
+
+    files.forEach((item)=>{  // give each file outside the array
+        console.log("File name is...........",item)
+    })
+})
