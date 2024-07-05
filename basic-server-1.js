@@ -17,4 +17,4 @@ const datacontrol = (req, resp) =>
         resp.end();
     }
 
-    http.createServer(datacontrol).listen(4200);
+    http.createServer(datacontrol).listen(1002);
