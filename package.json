@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/goel-anubhav/My-NodeJs-Diary#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "nodemon": "^3.1.4",
     "yarn": "^1.22.22"
   }
