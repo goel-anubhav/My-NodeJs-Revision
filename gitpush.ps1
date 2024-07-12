@@ -1,3 +1,3 @@
 git add .
-git commit -m "20"
+git commit -m "Learning & Updating"
 git push
