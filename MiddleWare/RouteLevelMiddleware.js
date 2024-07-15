@@ -1,23 +1,32 @@
 const express = require('express')
 const app = express();
 
-const reqFilter = require('./middleware')
-// app.use(reqFilter)
+const reqFilter = require('./middleware') //getting middleware from another file
+
+const route = express.Router();
+route.use(reqFilter); //for multiple
+
+// app.use(reqFilter) //for single or less 
 
 app.get("",(req,resp)=>{
     resp.send("Welcome To Home Page")
 })
 
 
-app.get("/users", reqFilter,(req,resp)=>{ //applied on single route
+//applied on single route
+app.get("/users", reqFilter,(req,resp)=>{ 
     resp.send("Welcome To Users Page")
 })
 
-app.get("/contact",(req,resp)=>{
+
+// Middleware on multiple components
+route.get("/contact",(req,resp)=>{
     resp.send("Welcome To Contact Page")
 })
 
-app.get("/about",(req,resp)=>{
+route.get("/about",(req,resp)=>{
     resp.send("Welcome To About Page")
 })
+
+app.use('/',route);
 app.listen(5000)
