@@ -8,7 +8,7 @@
 
 // If the data is another file like I'm creating a file in the folder Req/SimpleBasicAPIData.js
 
-const data = require('./Req/SimpleBasicAPIData')
+const data = require('../Req/SimpleBasicAPIData')
 const http = require('http')
 http.createServer((req,resp)=>{
     resp.writeHead(200,{'Content-Type':'application\json'});
