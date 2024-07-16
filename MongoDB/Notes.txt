@@ -10,6 +10,7 @@ commands:
 3. To Create New database: use Anubhav 
     Without creating a collection in a database it will not show in mongoDB
 4. To use one database: use Anubhav
-5. create new collection: db.createCollection('Anubhav')
+5. create new collection: db.createCollection('Mera_collection')
 6. To check all the collection: show collections
-7. 
+7. To delete a collection: db.Mera_collection.drop()
+8. To delete a database: db.dropdatabase()
