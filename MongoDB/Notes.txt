@@ -3,7 +3,7 @@ Data stored in collection (not in form of table)
 collection doesn't have row and columns
 Data is stored in form of objects (Like JSON data)
 
-commands:
+Basic commands:
 
 1. check mongoDB is installed correctly: mongod –version
 2. to show all the databases: show database
@@ -14,3 +14,7 @@ commands:
 6. To check all the collection: show collections
 7. To delete a collection: db.Mera_collection.drop()
 8. To delete a database: db.dropdatabase()
+
+CRUD:
+
+1. 
