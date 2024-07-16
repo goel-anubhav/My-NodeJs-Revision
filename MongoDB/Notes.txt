@@ -1,0 +1,4 @@
+No SQL database
+Data stored in collection (not in form of table)
+collection doesn't have row and columns
+Data is stored in form of objects (Like JSON data)
