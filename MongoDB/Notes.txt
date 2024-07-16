@@ -18,4 +18,16 @@ Basic commands:
 CRUD:
 
 1. Insert one Data: db.products.insertOne({name:'Tablet',brand:'Samsung',price:12000, category:'Mobile'}) 
-2. 
+2. Insert Data Through UI:
+
+{
+  "_id": {
+    "$oid": "66966fcb747cc8f5ffa9047e"
+  },
+  "name":"S21 Fe",
+    "brand":"Samsung",
+    "price":40000,
+    "category":"Mobile"
+}
+
+3. 
