@@ -1,3 +1,3 @@
 git add .
-git commit -m "31"
+git commit -m "Learned To Delete Data"
 git push
