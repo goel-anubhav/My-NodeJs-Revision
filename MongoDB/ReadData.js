@@ -15,10 +15,23 @@ async function dbconnect()
     // console.log(response);
 }
 
-dbconnect().then((resp)=>{
-    (resp.find().toArray().then((data)=>{
-        console.warn(data)
-    }))
-})
 
-// console.warn(getData())
+
+//First Method
+// dbconnect().then((resp)=>{
+//     (resp.find().toArray().then((data)=>{
+//         console.warn(data)
+//     }))
+// })
+
+
+//Second Method(easiest)
+
+const main = async ()=>{
+    let data = await dbconnect();
+    data  = await data.find().toArray();
+    console.warn(data);
+}
+main()
+
+// console.warn(dbconnect())
