@@ -1,3 +1,3 @@
 git add .
-git commit -m "Starting with Basic API"
+git commit -m "POST API"
 git push  

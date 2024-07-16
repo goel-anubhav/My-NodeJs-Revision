@@ -1,3 +1,4 @@
+//GET API
 const express = require('express');
 const dbconnect = require('../MongoDB/ReadData2Config');
 const app = express();
