@@ -30,4 +30,6 @@ CRUD:
     "category":"Mobile"
 }
 
-3. 
+3. Fetch Data By: db.products.find()
+4. Update: db.products.updateOne({name:"S21 Fe"},{$set:{brand:'Apple'}})
+5. delete: db.products.deleteOne({brand:'Samsung'})
