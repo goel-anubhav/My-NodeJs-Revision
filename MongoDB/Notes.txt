@@ -36,4 +36,4 @@ CRUD:
 
 To connect NodeJs with Node: yarn add mongodb
 
-Has Some Limitations that's why we need to use mongoose (for Schema & Limitations)
+Has Some Limitations that's why we need to use mongoose (for Schema, Models & Limitations)
