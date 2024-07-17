@@ -1,3 +1,3 @@
 git add .
-git commit -m "POST API"
+git commit -m "Delete API"
 git push  
