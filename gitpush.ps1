@@ -1,3 +1,3 @@
 git add .
-git commit -m "Complexing With Mongoose"
+git commit -m "Indexed"
 git push  
